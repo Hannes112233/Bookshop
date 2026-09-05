@@ -1,6 +1,6 @@
-const cds = require('@sap/cds')
+import cds from '@sap/cds'
 
-module.exports = class AdminService extends cds.ApplicationService { init() {
+export class AdminService extends cds.ApplicationService { init() {
 
   const { Books } = this.entities
 
